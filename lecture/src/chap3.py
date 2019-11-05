@@ -13,6 +13,7 @@ import os
 print('--------- Step. 2. Register your face in your namespace ---------')
 
 imgroot = '../../../enrol'
+name = 'junhee'
 
 skt = sktface(name)
 

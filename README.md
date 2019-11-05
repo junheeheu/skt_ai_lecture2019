@@ -17,6 +17,7 @@ apt-get install python2.7-dev python-pip
 pip install -U pip==9.0.3
 apt-get update
 apt-get install python-numpy libopencv-dev python-opencv git
+pip install requests
 cd git
 git clone https://github.com/junheeheu/skt_ai_lecture2019.git
 ~~~
