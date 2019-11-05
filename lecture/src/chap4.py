@@ -32,7 +32,7 @@ for imgname in imglist:
         ex = sx + result['face_box']['faceWidth']
         ey = sy + result['face_box']['faceHeight']
         cv2.rectangle(img, (sx,sy), (ex,ey), (0,255,255), 5)
-        txt = 'name: %s(.2f), %s, %d, %s' % (result['subject_name'], result['distance'], result['gender'], result['age'], result['expression'])
+        txt = 'name: %s, %s, %d, %s' % (result['subject_name'], result['gender'], result['age'], result['expression'])
         cv2.putText(img, txt, (sx + 10, sy+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,255), 1)
 
     cv2.imwrite('testresult.jpg', img)
