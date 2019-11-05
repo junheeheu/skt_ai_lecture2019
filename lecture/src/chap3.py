@@ -12,19 +12,25 @@ import os
 
 print('--------- Step. 2. Register your face in your namespace ---------')
 
-imgroot = '../../../enrol'
-name = 'junhee'
+imgpath = 'yeonah_front.jpg'
+name = 'yeonah'
 
 skt = sktface(name)
+skt.register_face(imgpath)
 
-imglist = os.listdir(imgroot)
+# imgroot = '../../../enrol'
+# name = 'junhee'
 
-for imgname in imglist:
-    imgpath = '%s/%s' % (imgroot, imgname)
-    if not os.path.exists(imgpath):
-        import pdb; pdb.set_trace()
-        print('check the path')
-    import pdb; pdb.set_trace()
-    skt.register_face(imgpath)
+# skt = sktface(name)
+
+# imglist = os.listdir(imgroot)
+
+# for imgname in imglist:
+#     imgpath = '%s/%s' % (imgroot, imgname)
+#     if not os.path.exists(imgpath):
+#         import pdb; pdb.set_trace()
+#         print('check the path')
+#     import pdb; pdb.set_trace()
+#     skt.register_face(imgpath)
 
 print('--------- Go To Next Chapter ---------')
