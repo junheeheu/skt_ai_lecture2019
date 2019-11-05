@@ -16,3 +16,9 @@
     ~~~
     import cv2
     ~~~
+
+3. check saved image
+    * copy save image to local
+    ~~~
+    docker container cp lecture:/git/save_junface.jpg ./
+    ~~~

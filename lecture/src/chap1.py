@@ -14,8 +14,10 @@ import pdb
 print('--------- Chap. 1. Load Image using OpenCV ---------')
 
 imgpath = '../../../junface.jpg'
+savepath = '../../../save_junface.jpg'
 
 img = cv2.imread(imgpath)
+cv2.imwrite(savepath, img)
 
-pdb.set_trace()
+
 print('--------- Go To Next Chapter ---------')
