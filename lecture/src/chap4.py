@@ -37,4 +37,4 @@ for imgname in imglist:
 
     cv2.imwrite('testresult.jpg', img)
 
-print('--------- Go To Next Chapter ---------')
+print('--------- End ---------')
