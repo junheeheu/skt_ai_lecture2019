@@ -1,6 +1,6 @@
 # Image Load by OpenCV
 
-[Back To Main](../../README.md)
+[Back To Main](../README.md)
 
 1. Prepare your own face photo
     * Notice: You should use your own face picture.
