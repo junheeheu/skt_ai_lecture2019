@@ -29,7 +29,7 @@
 2. Initial run ubuntu docker
     * Initial run docker as follows
     ~~~
-    docker run -v /c/git:/git --name lecture ubuntu
+    docker run -it -v /c/git:/git --name lecture ubuntu
     ~~~
     * Connect console to the previous container.
         * Notice: check to start the container.
