@@ -24,8 +24,15 @@
     * run Oracle VM VirtualBox
         * go to sharefolder menu
         * add /c/git
+        ![sharefolder](./addsharefolder_1.png)
 
 2. Initial run ubuntu docker
-~~~
-docker run -v /c/git:/git --name lecture ubuntu
-~~~
+    * Initial run docker as follows
+    ~~~
+    docker run -v /c/git:/git --name lecture ubuntu
+    ~~~
+    * Connect console to the previous container.
+        * Notice: check to start the container.
+    ~~~
+    docker exec -it lecture /bin/bash
+    ~~~
