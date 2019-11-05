@@ -9,7 +9,6 @@
 
 import cv2
 import os
-import pdb
 
 print('--------- Chap. 1. Load Image using OpenCV ---------')
 
