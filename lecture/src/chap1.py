@@ -6,3 +6,7 @@
 @contact junhee.heu@sk.com
 @data 2019.11.05
 """
+
+import cv2
+
+print('--------- Chap. 1. Load Image using OpenCV')
