@@ -23,6 +23,8 @@ for imgname in imglist:
     imgpath = '%s/%s' % (imgroot, imgname)
     if not os.path.exists(imgpath):
         print('check the path')
-    skt.identify(imgpath)
+    results = skt.identify(imgpath)
+    import pdb; pdb.set_trace()
+    temp = 0
 
 print('--------- Go To Next Chapter ---------')
