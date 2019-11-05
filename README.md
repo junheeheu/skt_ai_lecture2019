@@ -20,3 +20,14 @@ apt-get install python-numpy libopencv-dev python-opencv git
 cd git
 git clone https://github.com/junheeheu/skt_ai_lecture2019.git
 ~~~
+
+## Lecture Code Download
+* connect to the container 'lecture'.
+~~~
+mkdir git
+cd git
+git clone https://github.com/junheeheu/skt_ai_lecture2019.git
+~~~
+
+## Lectures
+* [Chapter 1. How to load image using opencv.](./lecture/chap1.md)
