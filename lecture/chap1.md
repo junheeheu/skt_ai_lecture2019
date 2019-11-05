@@ -6,10 +6,8 @@
     * Notice: You should use your own face picture.
         * Malfunctions can occur if you use a celebrity's face.
     * You can take a picture by using the camera of a cell phone camera or a laptop.
-    * Let's move our face photos to a shared folder, for example '/c/git/picture'.
     ~~~
-    mkdir /c/git/picture
-    cp face.jpg /c/git/picture/
+    docker container cp junface.jpg lecture:/git/
     ~~~
 2. Code for loading a face photo
     * import opencv

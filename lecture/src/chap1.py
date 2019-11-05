@@ -8,5 +8,14 @@
 """
 
 import cv2
+import os
+import pdb
 
-print('--------- Chap. 1. Load Image using OpenCV')
+print('--------- Chap. 1. Load Image using OpenCV ---------')
+
+imgpath = '../../../junface.jpg'
+
+img = cv2.imread(imgpath)
+
+pdb.set_trace()
+print('--------- Go To Next Chapter ---------')

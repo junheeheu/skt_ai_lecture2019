@@ -1,4 +1,4 @@
-# skt_ai_lecture2019
+# DNN based Image Recognition of SKT
 face recognition lecture @ SNU
 
 ## Practice Environment
