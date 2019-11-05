@@ -12,7 +12,20 @@
     * docker run hello-world
 
 ## Run Ubuntu 18.04 via Docker
-1. Initial run ubuntu docker
+1. setting share directory @ your local machine
+    * run Docker Quickstart Terminal
+    ~~~
+    cd /c
+    mkdir /git
+    exit
+    ~~~
+    * add any dummy file to test.
+        * ex) make test.txt file in the foler, /c/git/.
+    * run Oracle VM VirtualBox
+        * go to sharefolder menu
+        * add /c/git
+
+2. Initial run ubuntu docker
 ~~~
 docker run -v /c/git:/git --name lecture ubuntu
 ~~~
