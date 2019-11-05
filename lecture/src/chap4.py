@@ -26,13 +26,15 @@ for imgname in imglist:
         print('check the path')
     results = skt.identify(imgpath)
     img = cv2.imread('%s/%s' % (imgroot, imgname))
-    sx = results['face_box']['topLeftX']
-    sy = results['face_box']['topLeftY']
-    ex = sx + results['face_box']['faceWidth']
-    ey = sy + results['face_box']['faceHeight']
-    cv2.rectangle(img, (sx,sy), (ex,ey), (0,255,255), 5)
-    txt = 'name: %s, %s, %d, %s' % (results['subject_name'], results['gender'], results['age'], results['expression'])
-    cv2.putText(img, txt, (sx + 10, sy+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,255), 1)
+    for result in results:
+        sx = result['face_box']['topLeftX']
+        sy = result['face_box']['topLeftY']
+        ex = sx + result['face_box']['faceWidth']
+        ey = sy + result['face_box']['faceHeight']
+        cv2.rectangle(img, (sx,sy), (ex,ey), (0,255,255), 5)
+        import pdb;pdb.set_trace()
+        txt = 'name: %s(.2f), %s, %d, %s' % (result['subject_name'], result['distance'], result['gender'], result['age'], result['expression'])
+        cv2.putText(img, txt, (sx + 10, sy+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,255), 1)
 
     cv2.imwrite('testresult.jpg', img)
 
