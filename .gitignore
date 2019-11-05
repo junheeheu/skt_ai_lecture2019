@@ -1,2 +1,4 @@
 .DS_Store
 lecture/src/test.py
+lecture/src/api_util.py
+lecture/src/pyc_comp.py

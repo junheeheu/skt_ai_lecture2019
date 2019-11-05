@@ -21,6 +21,9 @@ imglist = os.listdir(imgroot)
 
 for imgname in imglist:
     imgpath = '%s/%s' % (imgroot, imgname)
+    if not os.path.exists(imgpath):
+        import pdb; pdb.set_trace()
+        print('check the path')
     skt.register_face(imgpath)
 
 print('--------- Go To Next Chapter ---------')
