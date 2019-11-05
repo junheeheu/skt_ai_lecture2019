@@ -15,6 +15,10 @@
     * load the image by opencv
     ~~~
     import cv2
+    imgpath = '../../../junface.jpg'
+    savepath = '../../../save_junface.jpg'
+    img = cv2.imread(imgpath)
+    cv2.imwrite(savepath, img)
     ~~~
 
 3. check saved image
