@@ -35,5 +35,5 @@ git clone https://github.com/junheeheu/skt_ai_lecture2019.git
 * [Chapter 2-4. Use SKT Face Recog. API.](./lecture/chap2-4.md)
 
 ## Others
-[JUNY](https://www.notion.so/junheeheu/Jun-Hee-HEU-ef399bb846934643ad4175d806c91aa4)
-[ppt](https://01071045122-my.sharepoint.com/:p:/g/personal/admin_01071045122_onmicrosoft_com/EZxJSNahNehIlrd947xtYjEBjIjSBnEK22FfioU_rguuwg)
+* [JUNY](https://www.notion.so/junheeheu/Jun-Hee-HEU-ef399bb846934643ad4175d806c91aa4)
+* [ppt](https://01071045122-my.sharepoint.com/:p:/g/personal/admin_01071045122_onmicrosoft_com/EZxJSNahNehIlrd947xtYjEBjIjSBnEK22FfioU_rguuwg)
